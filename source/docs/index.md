@@ -1,4 +1,4 @@
-# Smart Cargo API Documentation
+# GetTrucked API Documentation
 
 Welcome to the **Smart Cargo API** documentation. This API allows you to manage users, shipments (`loads`), vehicles (`lorries`), and more for the Smart Cargo platform.
 
