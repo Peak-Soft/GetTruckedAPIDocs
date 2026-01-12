@@ -1,0 +1,33 @@
+site_name: GetTrucked API Documentation
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - content.code.copy
+  palette: 
+    - scheme: default
+      primary: teal
+      accent: purple
+    - scheme: slate
+      primary: teal
+      accent: purple
+
+nav:
+  - Home: index.md
+  - Authentication: authentication.md
+  - Core Resources: resources.md
+  - Request Schemas: requests.md
+  - Database Schema: database.md
+  - Messaging: messaging.md
+  - Utilities: utilities.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
